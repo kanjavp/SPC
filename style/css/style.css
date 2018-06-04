@@ -1,0 +1,42 @@
+body{
+  color: white;
+}
+.navbar{
+  line-height: 5em;  
+}
+.navbar-nav{
+ line-height: 2em; 
+}
+.navbar-nav .nav-item .nav-link{
+  color: red !important;
+}
+
+#hero{
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0,0 , 0.5), 
+      rgba(0, 0,0, 0.9)
+    ), 
+    /* bottom, image */
+    url('/img/communitydev.jpg') no-repeat center left;
+     background-size: cover;
+     background-position: 0 10%;
+  
+  height: 900px;
+}
+
+#mission{
+  color:a;
+  background-color: darkgoldenrod;
+}
+.far{
+background-color: darkgoldenrod;
+ text-align: center;
+    line-height: 52px;
+}
+.fas{
+background-color: darkgoldenrod;
+ text-align: center;
+    line-height: 52px;
+}
