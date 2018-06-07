@@ -159,6 +159,13 @@ body{
   color: black;
   font-weight: 500;
 }
+.footerLinks{
+ text-decoration: none;
+  color: white;
+}
+.footerLinks:hover{
+ text-decoration: none;
+}
 /*
 #rcorners1 {
 border-radius: 100%;
