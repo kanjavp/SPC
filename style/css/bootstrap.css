@@ -1,9 +1,9 @@
 /*!
- * Bootstrap v4.0.0 (https://getbootstrap.com)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+* Bootstrap v4.0.0 (https://getbootstrap.com)
+* Copyright 2011-2018 The Bootstrap Authors
+* Copyright 2011-2018 Twitter, Inc.
+* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+*/
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8235,6 +8235,10 @@ button.bg-dark:focus {
   .px-md-5 {
     padding-right: 3rem !important;
   }
+  .pr-md-6,
+  .px-md-6 {
+    padding-right: 9rem !important;
+  }
   .pb-md-5,
   .py-md-5 {
     padding-bottom: 3rem !important;
@@ -8242,6 +8246,10 @@ button.bg-dark:focus {
   .pl-md-5,
   .px-md-5 {
     padding-left: 3rem !important;
+  }
+  .pl-md-6,
+  .px-md-6 {
+    padding-left: 9rem !important;
   }
   .m-md-auto {
     margin: auto !important;
@@ -8485,6 +8493,14 @@ button.bg-dark:focus {
   .px-lg-5 {
     padding-right: 3rem !important;
   }
+  .pr-lg-6,
+  .px-lg-6 {
+    padding-right: 9rem !important;
+  }
+  .pr-lg-7,
+  .px-lg-7 {
+    padding-right: 14rem !important;
+  }
   .pb-lg-5,
   .py-lg-5 {
     padding-bottom: 3rem !important;
@@ -8492,6 +8508,14 @@ button.bg-dark:focus {
   .pl-lg-5,
   .px-lg-5 {
     padding-left: 3rem !important;
+  }
+  .pl-lg-6,
+  .px-lg-6 {
+    padding-left: 9rem !important;
+  }
+  .pl-lg-7,
+  .px-lg-7 {
+    padding-left: 14rem !important;
   }
   .m-lg-auto {
     margin: auto !important;

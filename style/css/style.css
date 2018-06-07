@@ -1,5 +1,6 @@
 body{
   color: white;
+
 }
 .myNav{
   background-color: white;
@@ -134,6 +135,11 @@ body{
   font-size: 25px; 
   color: black;
 }
+
+.testimonials{
+  padding: 0 5em;
+}
+
 .clickHereText{
   font-size: 1em;
   text-decoration:none;
@@ -154,6 +160,10 @@ body{
   color: black;
   
 }
+.upcomingEvents{
+ padding: 0 0em; 
+}
+
 .UpcomingEventsFooter{
  font-size: 1em;
   color: black;
@@ -165,6 +175,16 @@ body{
 }
 .footerLinks:hover{
  text-decoration: none;
+}
+.icon{
+    text-align: center;
+}
+[class^="icon-"], [class*=" icon-"] {
+    display: inline-block;
+    width: 100%;
+}
+td i {
+    text-align:center;
 }
 /*
 #rcorners1 {
