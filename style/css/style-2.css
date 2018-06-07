@@ -1,5 +1,5 @@
 body{
-  color: green;
+  color: white;
 }
 .myNav{
   background-color: white;
@@ -63,7 +63,7 @@ body{
 
 #mission{
   color:a;
-  background-color: black;
+  background-color: darkgoldenrod;
 }
 .heroTitle{
   font-size: 90px;
@@ -122,37 +122,3 @@ body{
   }
 
 }
-.serviceTitle{
-  
-}
-.serviceImg{
-  width: 85%; 
-  height: auto;
-}
-.serviceText{
-  font-size: 25px; 
-  color: black;
-}
-
-/*
-#rcorners1 {
-    border-radius: 100%;
-    background: #73AD21;
-    padding: 20px; 
-   
-}
-.circle{
-  width:100%  ;
-  height: 100%;
-  
-  border-radius:50%;
-  text-align:center;
-  font-size: 48px;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  line-height:0;
-  position:relative;
-  background: #38a9e4;
-  color: white;
-  font-family: Helvetica, Arial Black, sans;
-}*/

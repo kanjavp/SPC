@@ -6,7 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+
+
 
         <link href="https://fonts.googleapis.com/css?family=Noticia+Text" rel="stylesheet">  
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
@@ -14,89 +16,387 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <link rel="stylesheet" href="style/css/bootstrap.css">
         <link rel="stylesheet" href="style/css/style.css">
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     </head>
 
     <body>
 
-        <div class=" bg-secondary">
+        <nav class="myNav navbar navbar-expand-lg navbar-light bg-success">
             <div class="container-fluid">
-                <nav class="navbar navbar-expand-md navbar-dark  ">
-                    <!--<div class="container">-->
-                    <a class="navbar-brand text-primary" href="#"> <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">Navbar</a>
-                    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link text-primary" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#">Disabled</a>
-                            </li>
-                        </ul>
-
+                <div class="row align-items-center">
+                    <div class="d-flex col-12 col-sm-2">      
+                        <img src="img/SPClogo.png" width=100px; height="100px" class="myLogoImg mx-auto imgLogo bg-" alt="Logo">  
                     </div>
-                    <!--</div>-->
-                </nav> 
+                    <div class="d-flex col-12 col-sm-7">          
+                        <a class="ml-md-3 mx-auto navbar-brand overflow-visible" href="#"><h5 class="myLogoTitle">Social Planning Council<br>of Peel</h5></a>  
+                    </div>
+                    <div class="col">        
+                        <div class="row">            
+                            <div class="d-flex col-12 col-sm-12">
+                                <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                        </div>            
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="container-fluid bg-primary">
+            <div class="col">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav" >
+                        <li class="nav-item">
+                            <a class="nav-link text-center" href="#">About<span class="d-none d-sm-block d-md-none">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center " href="#">Data</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-center dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                More
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item text-center" href="#">What's New</a>
+                                <a class="dropdown-item text-center" href="#">Upcoming Events</a>
+                            </div>
+                        </li>                                
+                        <li class="nav-item">
+                            <a class="nav-link text-center" href="#">Donate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav> 
+
+        <div id="hero" class="container-fluid bg-primary">
             <div id="hero" class="row hero-content pt-md-6 pb-sm-6 pt-6 pb-6 hero-img ">
                 <div class="col-md-12 col-sm-10 align-self-center">
-                    <h1 class="text-uppercase text-center">Social Planning Council of Peel</h1>
+                    <h1 class="heroTitle text-center">Social Planning Council of Peel</h1>
                 </div>
             </div>                    
         </div>
-        <div id="mission" class="p-5">
-            <div  class="">
+        <div id="mission" class="p-5 bg-suc">
+            <div  class="container-fluid">
                 <div class="row">                   
-                    <div  class="col pt-6 pb-6">            
-                        <h4 class="text-center">Mission Statment<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo blandit sapien, at imperdiet justo cursus non. Sed pulvinar sed urna a venenatis. Curabitur vitae ultrices leo. Nam leo purus, congue eget turpis at, fermentum ornare tellus. Phasellus venenatis nunc et convallis varius.</h4>
+                    <div class="col pt-6 pb-6">
+                        <h2 class="missionStatementText text-center pb-3">Mission Statment</h2>
+                        <h4 class="text-center">The Social Planning Council of Peel is an independent, non-profit and charitable organization that promotes social justice by facilitating citizen participation in the identification of social issues and in the planning and implementation of collaborative actions to address those issues.</h4>
                     </div>                    
 
                 </div>
             </div>
         </div>
-        <div class="bg-primary p-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-1 text-center mb-3 mb-md-0">
-                        <i class="fa fa-gamepad fa-2x"></i>
+
+        <div class="container-fluid">
+            <h5 class="text-center mt-3 mb-3 serviceTitle">Our Services</h5>
+            <div class="row ">
+                <div class="col-12 col-md-4 mb-4 mt-3">
+                    <div class="row">
+                        <div class="col" style="text-align: center">
+                            <img src="/img/communitydev.jpg"  alt="Img1" class="serviceImg rounded-circle img-fluid img-thumbnail"> 
+
+                        </div>
                     </div>
-                    <div class="col-sm-12 col-md-3 text-center text-uppercase text-md-left mb-3 mb-md-0">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum eu mi lobortis ornare. Aliquam convallis nunc id dolor malesuada, ac dapibus ligula hendrerit.</p>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <p class="text-center serviceText">Community Research</p>
+                        </div>
                     </div>
-                    <div class="col-sm-12 col-md-1 text-center mb-3 mb-md-0">
-                        <i class="fa fa-sitemap fa-2x"></i>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mt-3">
+                    <div class="row">
+                        <div class="col" style="text-align: center">
+                            <img src="/img/communitydev.jpg"  alt="Img1" class="serviceImg rounded-circle img-fluid img-thumbnail"> 
+                        </div>
                     </div>
-                    <div class="col-sm-12 col-md-3 text-center text-uppercase text-md-left mb-3 mb-md-0">
-                        <p>Curabitur aliquam est vel lacus egestas rhoncus. Ut placerat, diam posuere volutpat feugiat, neque justo scelerisque urna, sit amet posuere purus ipsum non quam. </p>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <p class="text-center serviceText">Public Education</p>
+                        </div>
                     </div>
-                    <div class="col-sm-12 col-md-1 text-center mb-3 mb-md-0">
-                        <i class="fa fa-line-chart fa-2x"></i>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mt-3">
+                    <div class="row">
+                        <div class="col" style="text-align: center">
+                            <img src="/img/communitydev.jpg"  alt="Img1" class=" serviceImg rounded-circle img-fluid img-thumbnail"> 
+                        </div>
                     </div>
-                    <div class="col-sm-12 col-md-3 text-center text-uppercase text-md-left mb-3 mb-md-0">
-                        <p>Aenean rhoncus justo mi, a tempor urna lacinia sit amet. Sed auctor venenatis purus et ornare. Mauris a nibh eu ex consectetur mollis sit amet at quam.</p>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <p class="text-center serviceText">Community Development</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
+
+        <div class="container-fluid">
+            <h5 class="text-center mt-3 mb-3 serviceTitle">Testimonials</h5>
+            <div class="card-columns mb-5">
+
+                <div class="card">
+
+                    <div class="card-body  ">
+                        <h5 class="card-title">Card title that wraps to a new line</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+                <div class="card p-3">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="card">   
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card bg-primary text-white text-center p-3">
+                    <blockquote class="blockquote mb-0">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                        <footer class="blockquote-footer">
+                            <small>
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                
+                <div class="card p-3 text-right">
+                    <blockquote class="blockquote mb-0">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="d-flex bd-highlight">
+<div class="p-6 bg-dark" style="text-align:center;">
+<img style="width: 50%;" src="/img/communitydev.jpg"  alt="Img1" class="rounded-circle img-fluid img-thumbnail rounded float-center" > 
+<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+</div>
+<div class="p-6 bd-highlight bg-dark">
+<img style="width: 50%; height: auto;" src="/img/communitydev.jpg"  alt="Img1" class="rounded-circle img-fluid img-thumbnail"> 
+</div>
+<div class="p-6 bd-highlight bg-dark">
+<img style="width: 50%; height: auto;" src="/img/communitydev.jpg"  alt="Img1" class="rounded-circle img-fluid img-thumbnail"> 
+</div>
+</div>-->
+
+
+
+        <!--<section class="testimonials text-center bg-light">
+<div class="container-fluid">
+<h2 class="mb-" style="color: red">What people are saying...</h2>
+<div class="row ml-5 mr-5 pl-5 pr-5 p-5">
+<div class="col-lg-4">
+<div class="testimonial-item mx-auto mb-5 mb-lg-0">
+<img class="img-thumbnail rounded-circle mb-3" style="max-width: 50%;" src="/img/communitydev.jpg" alt="">
+<h5 style="color: red">Margaret E.</h5>
+<p class="font-weight-light mb-0" style="color: red">"This is fantastic! Thanks so much guys!"</p>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="testimonial-item mx-auto mb-5 mb-lg-0">
+<img class="img-fluid rounded-circle mb-3" src="/img/communitydev.jpg" alt="">
+<h5 style="color: red">Fred S.</h5>
+<p class="font-weight-light mb-0" style="color: red">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="testimonial-item mx-auto mb-5 mb-lg-0">
+<img class="img-fluid rounded-circle mb-3" src="/img/communitydev.jpg" alt="">
+<h5 style="color: red">Sarah	W.</h5>
+<p class="font-weight-dark  mb-0" style="color: red">"Thanks so much for making these free resources available to us!"</p>
+</div>
+</div>
+</div>
+</div>
+</section>-->
+
+        <!--<section class="bg-light" id="team">
+<div class="container-fluid">
+<div class="row mt-5">
+<div class="col-lg-12 text-center"  style="color: red">
+<h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+</div>
+</div>
+<div class="row " style="color: red">
+<div class="col-12 col-sm-4" >
+<div class="team-member">
+<img class="mx-auto rounded-circle img-fluid" src="/img/SPCLogo.png" alt="">
+<h4 >Kay Garland</h4>
+<p class="text-muted">Lead Designer</p>
+<ul class="list-inline social-buttons">
+<li class="list-inline-item">
+<a href="#">
+<i class="fa fa-twitter"></i>
+</a>
+</li>
+<li class="list-inline-item">
+<a href="#">
+<i class="fa fa-facebook"></i>
+</a>
+</li>
+<li class="list-inline-item">
+<a href="#">
+<i class="fa fa-linkedin"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-sm-4">
+<div class="team-member">
+<img class="mx-auto rounded-circle img-fluid" src="/img/SPCLogo.png" alt="">
+<h4>Larry Parker</h4>
+<p class="text-muted">Lead Marketer</p>
+<ul class="list-inline social-buttons">
+<li class="list-inline-item">
+<a href="#">
+<i class="fa fa-twitter"></i>
+</a>
+</li>
+<li class="list-inline-item">
+<a href="#">
+<i class="fa fa-facebook"></i>
+</a>
+</li>
+<li class="list-inline-item">
+<a href="#">
+<i class="fa fa-linkedin"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-sm-4">
+<div class="team-member">
+<img class="mx-auto rounded-circle img-fluid" src="/img/SPCLogo.png" alt="">
+<h4>Diana Pertersen</h4>
+<p class="text-muted">Lead Developer</p>
+<ul class="list-inline social-buttons">
+<li class="list-inline-item">
+<a href="#">
+<i class="fa fa-twitter"></i>
+</a>
+</li>
+<li class="list-inline-item">
+<a href="#">
+<i class="fa fa-facebook"></i>
+</a>
+</li>
+<li class="list-inline-item">
+<a href="#">
+<i class="fa fa-linkedin"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-8 mx-auto text-center">
+<p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+</div>
+</div>
+</div>
+</section>-->
+
+        <!-- <div class="bg-primary p-5">
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-12 col-md-1 text-center mb-3 mb-md-0">
+<i class="fa fa-gamepad fa-2x"></i>
+</div>
+<div class="col-sm-12 col-md-3 text-center text-uppercase text-md-left mb-3 mb-md-0">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum eu mi lobortis ornare. Aliquam convallis nunc id dolor malesuada, ac dapibus ligula hendrerit.</p>
+</div>
+<div class="col-sm-12 col-md-1 text-center mb-3 mb-md-0">
+<i class="fa fa-sitemap fa-2x"></i>
+</div>
+<div class="col-sm-12 col-md-3 text-center text-uppercase text-md-left mb-3 mb-md-0">
+<p>Curabitur aliquam est vel lacus egestas rhoncus. Ut placerat, diam posuere volutpat feugiat, neque justo scelerisque urna, sit amet posuere purus ipsum non quam. </p>
+</div>
+<div class="col-sm-12 col-md-1 text-center mb-3 mb-md-0">
+<i class="fa fa-line-chart fa-2x"></i>
+</div>
+<div class="col-sm-12 col-md-3 text-center text-uppercase text-md-left mb-3 mb-md-0">
+<p>Aenean rhoncus justo mi, a tempor urna lacinia sit amet. Sed auctor venenatis purus et ornare. Mauris a nibh eu ex consectetur mollis sit amet at quam.</p>
+</div>
+</div>
+</div>
+</div> -->
+
+
+
+        <div class="card-deck mb-5">
+            <div class="card">
+                <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
         <div class="bg-dark p-5">
             <div class="">
                 <div class="row">
@@ -111,7 +411,7 @@
                     <div class="col-3 p-3 ">
                         <div class="">
                             <div class="row">
-                                <a href="#1"><h5>About</h5></a>
+                                <a href="#1"><h5>About Us</h5></a>
                             </div>
                             <div class="row">
                                 <a href="#2">Our Projects</a> 

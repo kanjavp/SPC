@@ -1929,7 +1929,7 @@ pre code {
   }
 }
 
-@media (max-width: 1199.98px) {
+@media (max-width: 1299.98px) {
   .table-responsive-xl {
     display: block;
     width: 100%;
@@ -4213,7 +4213,7 @@ tbody.collapse.show {
   }
 }
 
-@media (max-width: 1199.98px) {
+@media (max-width: 1299.98px) {
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid {
     padding-right: 0;
@@ -7547,6 +7547,30 @@ button.bg-dark:focus {
 .ml-5,
 .mx-5 {
   margin-left: 3rem !important;
+}
+
+.m-6 {
+  margin: 9em !important;
+}
+
+.mt-6,
+.my-6 {
+  margin-top: 9em !important;
+}
+
+.mr-6,
+.mx-6 {
+  margin-right: 9em !important;
+}
+
+.mb-6,
+.my-6 {
+  margin-bottom: 9em !important;
+}
+
+.ml-6,
+.mx-6 {
+  margin-left: 9em !important;
 }
 
 .p-0 {
