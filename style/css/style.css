@@ -1,5 +1,5 @@
 body{
-  color: green;
+  color: white;
 }
 .myNav{
   background-color: white;
@@ -74,12 +74,12 @@ body{
 
 }
 .far{
-  background-color: darkgoldenrod;
+  background-color: ;
   text-align: center;
   line-height: 52px;
 }
 .fas{
-  background-color: darkgoldenrod;
+  background-color: ;
   text-align: center;
   line-height: 52px;
 }
@@ -123,7 +123,8 @@ body{
 
 }
 .serviceTitle{
-  
+  font-size: 38px;
+  font-weight: 700;
 }
 .serviceImg{
   width: 85%; 
@@ -133,26 +134,50 @@ body{
   font-size: 25px; 
   color: black;
 }
+.clickHereText{
+  font-size: 1em;
+  text-decoration:none;
 
+}
+.fullClickHereText{
+  font-size: 0.75em;
+}
+.clickHereText{
+  text-decoration:none;
+  color: white;
+}
+.clickHereText:hover {
+  text-decoration: none;
+}
+.myFooter{
+  font-size: 0.9em;
+  color: black;
+  
+}
+.UpcomingEventsFooter{
+ font-size: 1em;
+  color: black;
+  font-weight: 500;
+}
 /*
 #rcorners1 {
-    border-radius: 100%;
-    background: #73AD21;
-    padding: 20px; 
-   
+border-radius: 100%;
+background: #73AD21;
+padding: 20px; 
+
 }
 .circle{
-  width:100%  ;
-  height: 100%;
-  
-  border-radius:50%;
-  text-align:center;
-  font-size: 48px;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  line-height:0;
-  position:relative;
-  background: #38a9e4;
-  color: white;
-  font-family: Helvetica, Arial Black, sans;
+width:100%  ;
+height: 100%;
+
+border-radius:50%;
+text-align:center;
+font-size: 48px;
+margin-top: 10%;
+margin-bottom: 10%;
+line-height:0;
+position:relative;
+background: #38a9e4;
+color: white;
+font-family: Helvetica, Arial Black, sans;
 }*/
