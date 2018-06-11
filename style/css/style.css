@@ -1,18 +1,30 @@
+/*---------------- BODY -----------------------*/
+/*---------------- BODY -----------------------*/
+/*---------------- BODY -----------------------*/
+
 body{
-  color: white;
+  color:white;
+  font-family: 'Noticia Text', serif;
+  background-color:white;
 
 }
+
+/*---------------- NAVBAR -----------------------*/
+/*---------------- NAVBAR -----------------------*/
+/*---------------- NAVBAR -----------------------*/
+
 .myNav{
-  background-color: white;
+  background-color:white;
 }
 .title{    
   text-align: center;
 
 }
 .myLogoTitle{
-  font-size:42px; 
+  font-size:92px; 
   font-weight: 900;
   text-align:center;
+  color:#28a745; 
 }
 .myLogoImg{
   width: 100px;
@@ -21,7 +33,7 @@ body{
 
 .navbar{
   line-height: 7em;  
-  font-family: 'Noticia Text', serif;
+  /*font-family: 'Noticia Text', serif;*/
 
 }
 .navbar-nav{
@@ -47,43 +59,356 @@ body{
   margin-left:10px;
   margin-right:10px;
 }
+
+
+/*---------------- HERO -----------------------*/
+/*---------------- HERO -----------------------*/
+/*---------------- HERO -----------------------*/
+
 #hero{
   background: 
     /* top, transparent red, faked with gradient */ 
     linear-gradient(
-      rgba(0, 0,0 , 0.5), 
-      rgba(0, 0,0, 0.9)
+      rgba(0, 0, 25, 0.9), 
+      rgba(0, 0, 25, 0.9)
     ), 
     /* bottom, image */
     url('/img/communitydev.jpg') ;
   background-size:cover;
   background-position: 0 10%;
 
-  height: 900px;
+  height: 800px;
+
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#hero2{
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0,25 , 0.9), 
+      rgba(0, 0,25, 0.9)
+    ), 
+    /* bottom, image */
+    url('/img/communitydev.jpg') ;
+  background-size:cover;
+  background-position: 0 10%;
+
+  height:400px;
+
+  background-attachment: fixed;
+  background-position:top ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+}
+
+.heroTitle{
+  font-size: 100px;
+  color: #28a745;
+  font-weight: 900;
+}
+
+/*---------------- MISSION STATEMENT -----------------------*/
+/*---------------- MISSION STATEMENT -----------------------*/
+/*---------------- MISSION STATEMENT -----------------------*/
+.long-shadow {
+  display:block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 25px;
+  border: none;
+  font: normal 60px/1 "Fredoka One", Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 3px 3px 0 #0199d9 , 4px 4px 0 #0199d9 , 5px 5px 0 #0199d9 , 6px 6px 0 #0199d9 , 7px 7px 0 #0199d9 , 8px 8px 0 #0199d9 , 9px 9px 0 #0199d9 , 10px 10px 0 #0199d9 , 11px 11px 0 #0199d9 , 12px 12px 0 #0199d9 , 13px 13px 0 #0199d9 , 14px 14px 0 #0199d9 , 15px 15px 0 #0199d9 , 16px 16px 0 #0199d9 , 17px 17px 0 #0199d9 , 18px 18px 0 #0199d9 , 19px 19px 0 #0199d9 , 20px 20px 0 #0199d9 ;
+}
+.enjoy-css {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 196px/1 Arial, Helvetica, sans-serif;
+  color: rgba(2,142,19,1);
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: rgb(255,255,255);
+  text-shadow: 10px 10px 30px rgba(0,150,255,0.91) ;
+  -webkit-transition: background-color 200ms cubic-bezier(0.47, 0, 0.745, 0.715) 10ms;
+  -moz-transition: background-color 200ms cubic-bezier(0.47, 0, 0.745, 0.715) 10ms;
+  -o-transition: background-color 200ms cubic-bezier(0.47, 0, 0.745, 0.715) 10ms;
+  transition: background-color 200ms cubic-bezier(0.47, 0, 0.745, 0.715) 10ms;
 }
 
 #mission{
   color:a;
-  background-color: black;
+  /*background-color: ;*/
 }
-.heroTitle{
-  font-size: 90px;
+.MissionStatementBox{  
+ /*background-color:;*/
+}
+.missionStatementTitle{
+  /*background-color:;*/
+  color: white;
+  font-size: 95px;
+  font-weight: 900
 }
 .missionStatementText{
-  background-color:;
-  font-size: 55px;
+  /*background-color:;*/
+  color: whit;
+  font-size:1.8em;
+}
+.missionStatementText:hover{
+  /*background-color: rgba(0, 102, 0, 0.5);
+  color: black;
+  font-size:1.8em;*/
+}
+.myBadge{
+  height: 400px; 
+  width: 500px;
+  /* border-radius: 10em;
+  border-style: solid;
+  border-color: green;
+  border-width: thick;*/
 
 }
+.myBadge:hover{
+  /*border-color:green;
+  background-color: rgba(0, 102, 0, 0.5);*/
+}
+#badge{
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0,25 , 0.9), 
+      rgba(0, 0,25, 0.9)
+    ), 
+    /* bottom, image */
+    url('/img/communitydev.jpg') ;
+  background-size:cover;
+  background-position: 0 10%;
+
+
+
+  background-attachment: fixed;
+  background-position:top ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+}
+
+/*---------------- SERVICES -----------------------*/
+/*---------------- SERVICES -----------------------*/
+/*---------------- SERVICES -----------------------*/
+
+
+.serviceTitle{
+  font-size: 38px;
+  font-weight: 900;
+  color: black;
+}
+.serviceImg2{ 
+  height: 75%;
+  width: 85%;
+  text-align: center;
+
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0,25 , 0.9), 
+      rgba(0, 0,25, 0.9)
+    ), 
+    /* bottom, image */
+    url('/img/communitydev.jpg') ;
+  background-size:cover;
+
+
+  background-attachment: fixed;
+  background-position:top ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+
+
+
+
+}
+.serviceImg{
+  width: 85%; 
+  height: auto;
+  text-align: center;
+
+
+
+
+}
+.serviceImg:hover{
+  width: 85%; 
+  height: auto;
+  text-align: center;
+}
+.serviceText{
+  font-size: 28px; 
+  color: black;
+  font-weight: 900;
+}
+
+
+
+/*---------------- TESTIMONIALS -----------------------*/
+/*---------------- TESTIMONIALS -----------------------*/
+/*---------------- TESTIMONIALS -----------------------*/
+
+.serviceTestimonials{
+  font-size: 38px;
+  font-weight: 900;
+  color: black;
+}
+
+.myCard{
+  border-color:#28a745; 
+  border-style: solid;
+  border-width:0.2em;
+  color:black;  
+  background-color: white;
+
+}
+.myCard .clickHereText{
+  text-decoration:none;
+  color: #28a745;
+  font-size: 1em;
+}
+.myCard .clickHereText:hover{
+  text-decoration:none;
+  color: white;
+  font-size: 1em;
+}
+
+.myCard:hover{
+  /*border-color:#28a745; 
+  border-style: solid;
+  border-width:0.2em;
+  color:white;
+  background-color: #28a745;
+  animation-delay: 2s;*/
+  border-color:#28a745; 
+  border-style: solid;
+  border-width:0.2em;
+  color:white;  
+  background-color: #28a745;
+   transition: all 1s ease-out  ;
+  
+/*
+
+  transition: width 5s;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: width 2s; /* Safari */
+  /*
+  -webkit-transition-timing-function: linear;*/   /* Safari */
+  /*#div1 {transition-timing-function: linear;}
+  #div2 {transition-timing-function:}
+  #div3 {transition-timing-function: ease-in;}
+  #div4 {transition-timing-function: ease-out;}
+  #div5 {transition-timing-function: ease-in-out;}*/
+
+}
+
+.testimonialsBody{
+ /*color:;*/
+  /*background-color:;*/
+}
+
+.fullClickHereText{
+  font-size: 0.75em;
+}
+.clickHereText{
+  text-decoration:none;
+  color: #28a745;
+  font-size: 1em;
+}
+.clickHereText:hover {
+  text-decoration: none;
+}
+
+.testimonialsFooter{
+  font-size: 0.9em;
+  color: black;  
+}
+.testimonialsFooter:hover{
+  font-size: 0.9em;
+  color: white;  
+}
+.testimonialsName{
+  color:#28a745;
+}
+.myHover:{
+color:white;
+}
+
+
+/*---------------- UPCOMING EVENTS -----------------------*/
+/*---------------- UPCOMING EVENTS -----------------------*/
+/*---------------- UPCOMING EVENTS -----------------------*/
+.upcomingEvents{
+  padding: 0 0em; 
+}
+.UpcomingEventsTitle{
+  color: black;
+  font-weight: 900
+}
+.upcomingTitleText{
+  font-size: 1.5em;
+}
+.upcomingText{
+  font-size: 1.1em;
+}
+
+.UpcomingEventsFooter{
+  font-size: 1.2em;
+  color: black;
+  font-weight: 900;
+}
+
+
+
+
+/*---------------- FOOTER -----------------------*/
+/*---------------- FOOTER -----------------------*/
+/*---------------- FOOTER -----------------------*/
+.footerLinks{
+  text-decoration: none;
+  color: white;
+}
+.footerLinks:hover{
+  text-decoration: none;
+}
 .far{
-  background-color: ;
+  /*background-color: ;*/
   text-align: center;
   line-height: 52px;
 }
 .fas{
-  background-color: ;
+  /*background-color: ;*/
   text-align: center;
   line-height: 52px;
 }
+
+
+/*---------------- MEDIA  -----------------------*/
+/*---------------- MEDIA  -----------------------*/
+/*---------------- MEDIA  -----------------------*/
+
+
 @media(min-width:1300px){
   .myLogoTitle{  
     font-size:42px; 
@@ -123,69 +448,103 @@ body{
   }
 
 }
-.serviceTitle{
-  font-size: 38px;
-  font-weight: 700;
-}
-.serviceImg{
-  width: 85%; 
-  height: auto;
-}
-.serviceText{
-  font-size: 25px; 
-  color: black;
-}
 
-.testimonials{
-  padding: 0 5em;
-}
 
-.clickHereText{
-  font-size: 1em;
-  text-decoration:none;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------- OTHER -----------------------*/
+/*---------------- OTHER -----------------------*/
+/*---------------- OTHER -----------------------*/
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.fullClickHereText{
-  font-size: 0.75em;
-}
-.clickHereText{
-  text-decoration:none;
+.myContainer {
+  position: relative;
+ /* text-align:;*/
   color: white;
 }
-.clickHereText:hover {
-  text-decoration: none;
+#DonateMiniHero{
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0,0 , 0.5), 
+      rgba(0, 0,0, 0.9)
+    ), 
+    /* bottom, image */
+    url('/img/communitydev.jpg') ;
+  background-size:cover;
+  background-position: 0 10%;
+
+  height: 100px;
 }
-.myFooter{
-  font-size: 0.9em;
-  color: black;
+
+.hehe{
+color: blue;
+}
+.money {
+    width: 100px;
+    height: 100px;
+    background: green;
+    position: relative;
+   
+
+}
+.money:hover{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+   transition: all 2s;
   
-}
-.upcomingEvents{
- padding: 0 0em; 
+
 }
 
-.UpcomingEventsFooter{
- font-size: 1em;
-  color: black;
-  font-weight: 500;
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
-.footerLinks{
- text-decoration: none;
-  color: white;
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
-.footerLinks:hover{
- text-decoration: none;
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
-.icon{
-    text-align: center;
-}
-[class^="icon-"], [class*=" icon-"] {
-    display: inline-block;
-    width: 100%;
-}
-td i {
-    text-align:center;
-}
+
+
 /*
 #rcorners1 {
 border-radius: 100%;
