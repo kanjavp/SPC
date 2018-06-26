@@ -8,6 +8,10 @@ body{
   background-color:white;
 
 }
+a,u{
+
+  text-decoration: none;
+}
 
 /*---------------- NAVBAR -----------------------*/
 /*---------------- NAVBAR -----------------------*/
@@ -15,6 +19,7 @@ body{
 
 .myNav{
   background-color:white;
+  image
 }
 .title{    
   text-align: center;
@@ -44,7 +49,7 @@ body{
 .navbar .navbar-nav .nav-item .nav-link{
   font-weight:900;
   margin-left:auto;
-  color: black; 
+  color: black;
 
 
   /*font-family: 'Noticia Text', serif; */
@@ -59,6 +64,25 @@ body{
   margin-left:10px;
   margin-right:10px;
 }
+.navLink2{ 
+  text-decoration: none;
+  border-bottom: 0.13em solid transparent;
+  transition: all ease-in-out 0.6s;
+}
+.navLink2:hover{
+  
+ color: #28a745;
+  border-color: #28a745;
+}
+#navLink2 .nav-link:hover, .nav-link:focus {
+   color: #28a745;
+  border-color: #28a745;
+}
+.dropdown-item {
+  transition: all ease-in-out 0.6s;
+}
+.dropdown-item:hover, .dropdown-item:focus {  background-color: #28a745;
+}
 
 
 /*---------------- HERO -----------------------*/
@@ -67,16 +91,19 @@ body{
 
 #hero{
   background: 
-    /* top, transparent red, faked with gradient */ 
+    /* top, transparent red, faked with gradient */
     linear-gradient(
-      rgba(0, 0, 25, 0.9), 
-      rgba(0, 0, 25, 0.9)
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
     ), 
     /* bottom, image */
-    url('/img/communitydev.jpg') ;
+    url('/img/communitydev_hero16.png') ;
   background-size:cover;
   background-position: 0 10%;
+  /*background-image: url("/img/communitydev_hero14.png");*/
 
+  /* #1e20b9 #1b1d95 #1a1c98 #1f21bf */
+  /* #1e20b9 #141576 #0E0F55 */
   height: 800px;
 
   min-height: 500px;
@@ -85,28 +112,6 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
-#hero2{
-  background: 
-    /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(0, 0,25 , 0.9), 
-      rgba(0, 0,25, 0.9)
-    ), 
-    /* bottom, image */
-    url('/img/communitydev.jpg') ;
-  background-size:cover;
-  background-position: 0 10%;
-
-  height:400px;
-
-  background-attachment: fixed;
-  background-position:top ;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-
-
-}
 
 .heroTitle{
   font-size: 100px;
@@ -114,50 +119,49 @@ body{
   font-weight: 900;
 }
 
-/*---------------- MISSION STATEMENT -----------------------*/
-/*---------------- MISSION STATEMENT -----------------------*/
-/*---------------- MISSION STATEMENT -----------------------*/
-.long-shadow {
-  display:block;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  padding: 25px;
-  border: none;
-  font: normal 60px/1 "Fredoka One", Helvetica, sans-serif;
-  color: rgba(255,255,255,1);
-  text-align: center;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  text-shadow: 3px 3px 0 #0199d9 , 4px 4px 0 #0199d9 , 5px 5px 0 #0199d9 , 6px 6px 0 #0199d9 , 7px 7px 0 #0199d9 , 8px 8px 0 #0199d9 , 9px 9px 0 #0199d9 , 10px 10px 0 #0199d9 , 11px 11px 0 #0199d9 , 12px 12px 0 #0199d9 , 13px 13px 0 #0199d9 , 14px 14px 0 #0199d9 , 15px 15px 0 #0199d9 , 16px 16px 0 #0199d9 , 17px 17px 0 #0199d9 , 18px 18px 0 #0199d9 , 19px 19px 0 #0199d9 , 20px 20px 0 #0199d9 ;
+
+/*---------------- SERVICES -----------------------*/
+/*---------------- SERVICES -----------------------*/
+/*---------------- SERVICES -----------------------*/
+
+/* #FC440F #D7263D */
+
+.ourService{
+  color:black;
+  font-weight: 900;
 }
-.enjoy-css {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  border: none;
-  font: normal 196px/1 Arial, Helvetica, sans-serif;
-  color: rgba(2,142,19,1);
-  -o-text-overflow: ellipsis;
-  text-overflow: ellipsis;
-  background: rgb(255,255,255);
-  text-shadow: 10px 10px 30px rgba(0,150,255,0.91) ;
-  -webkit-transition: background-color 200ms cubic-bezier(0.47, 0, 0.745, 0.715) 10ms;
-  -moz-transition: background-color 200ms cubic-bezier(0.47, 0, 0.745, 0.715) 10ms;
-  -o-transition: background-color 200ms cubic-bezier(0.47, 0, 0.745, 0.715) 10ms;
-  transition: background-color 200ms cubic-bezier(0.47, 0, 0.745, 0.715) 10ms;
+.smallLine{
+  width:7%;
+  height: 0.25em;
+  border:solid;
+  border-radius: 29%;
+  background-color:#141576 ;
+}
+.serviceIcon{  
+  color: #141576;
+}
+.serviceText{
+  color: black;
 }
 
+
+
+
+/*---------------- MISSION STATEMENT -----------------------*/
+/*---------------- MISSION STATEMENT -----------------------*/
+/*---------------- MISSION STATEMENT -----------------------*/
+
+
 #mission{
-  color:a;
+  color:white;
   /*background-color: ;*/
 }
 .MissionStatementBox{  
- /*background-color:;*/
+  /*background-color:;*/
 }
 .missionStatementTitle{
   /*background-color:;*/
-  color: white;
+  color:white;
   font-size: 95px;
   font-weight: 900
 }
@@ -196,21 +200,53 @@ body{
   background-size:cover;
   background-position: 0 10%;
 
-
-
   background-attachment: fixed;
   background-position:top ;
   background-repeat: no-repeat;
   background-size: cover;
-
-
-
 }
 
 /*---------------- SERVICES -----------------------*/
 /*---------------- SERVICES -----------------------*/
 /*---------------- SERVICES -----------------------*/
+.myContainer {
+  position: relative;
+  width: 50%;
+}
 
+.myImage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.myOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.myContainer:hover .myOverlay {
+  opacity: 0.85;
+}
+
+.myText {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 .serviceTitle{
   font-size: 38px;
@@ -238,139 +274,145 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 50%;
-
-
-
-
 }
 .serviceImg{
   width: 85%; 
   height: auto;
   text-align: center;
-
-
-
-
 }
 .serviceImg:hover{
   width: 85%; 
   height: auto;
   text-align: center;
 }
+/*
 .serviceText{
-  font-size: 28px; 
+font-size: 28px; 
+color: black;
+font-weight: 900;
+}*/
+
+/*---------------- DONATE BAR -----------------------*/
+/*---------------- DONATE BAR -----------------------*/
+/*---------------- DONATE BAR -----------------------*/
+
+
+.donateBar{
+  /* background: 
+
+  linear-gradient(
+  rgba(0, 0, 0, 0.5), 
+  rgba(0, 0, 0, 0.5)
+  ), 
+
+  url('/img/communitydev_green.jpg') ;*/
+
+  background-image: url("/img/communitydev_hero14.png");
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.donateTitle{
+  color: #28a745;
+  font-weight: 900;
+}
+.donateText{
+  color: #28a745;
+  font-size: 1.8em;
+}
+
+/*---------------- TESTIMONIALS -----------------------*/
+/*---------------- TESTIMONIALS -----------------------*/
+/*---------------- TESTIMONIALS -----------------------*/
+.testimonialsTitle{
   color: black;
   font-weight: 900;
 }
-
-
-
-/*---------------- TESTIMONIALS -----------------------*/
-/*---------------- TESTIMONIALS -----------------------*/
-/*---------------- TESTIMONIALS -----------------------*/
-
-.serviceTestimonials{
-  font-size: 38px;
-  font-weight: 900;
-  color: black;
-}
-
 .myCard{
-  border-color:#28a745; 
-  border-style: solid;
-  border-width:0.2em;
+  border-color:; 
+  border-style:;
+  border-width:;
   color:black;  
   background-color: white;
 
 }
-.myCard .clickHereText{
-  text-decoration:none;
-  color: #28a745;
-  font-size: 1em;
-}
-.myCard .clickHereText:hover{
-  text-decoration:none;
-  color: white;
-  font-size: 1em;
-}
-
-.myCard:hover{
-  /*border-color:#28a745; 
-  border-style: solid;
-  border-width:0.2em;
-  color:white;
-  background-color: #28a745;
-  animation-delay: 2s;*/
+.myCard:hover{ 
   border-color:#28a745; 
   border-style: solid;
-  border-width:0.2em;
+  border-width:;
   color:white;  
-  background-color: #28a745;
-   transition: all 1s ease-out  ;
-  
-/*
+  background-color: #0E0F55;
 
-  transition: width 5s;
-  transition-timing-function: ease-in-out;
-  -webkit-transition: width 2s; /* Safari */
-  /*
-  -webkit-transition-timing-function: linear;*/   /* Safari */
-  /*#div1 {transition-timing-function: linear;}
-  #div2 {transition-timing-function:}
-  #div3 {transition-timing-function: ease-in;}
-  #div4 {transition-timing-function: ease-out;}
-  #div5 {transition-timing-function: ease-in-out;}*/
+  transition: all 0.3s ease-out  ;
 
 }
-
-.testimonialsBody{
- /*color:;*/
-  /*background-color:;*/
+.myFooter{
+  color:black;
 }
-
-.fullClickHereText{
-  font-size: 0.75em;
+.myFooterHover{
+  color:white;
+  transition: all 0.3s ease-out  ;
 }
 .clickHereText{
   text-decoration:none;
-  color: #28a745;
+  color: black;
   font-size: 1em;
 }
-.clickHereText:hover {
+
+.clickHereTextHover {
   text-decoration: none;
+  color: white;
+  font-size: 1em;
+  transition: all 0.3s ease-out  ;
+}
+.testimonialsLine{
+
+  width:87%;
+  height: 0.1em;
+  border:;
+  background-color:black ;
+
+}
+.testimonialsLineHover{
+
+  width:87%;
+  height: 0.1em;
+  border:;
+  background-color:#28a745 ;
+
 }
 
-.testimonialsFooter{
-  font-size: 0.9em;
-  color: black;  
+.quoteName{  
+  font-size: 1.3em
 }
-.testimonialsFooter:hover{
-  font-size: 0.9em;
-  color: white;  
-}
-.testimonialsName{
-  color:#28a745;
-}
-.myHover:{
-color:white;
-}
-
 
 /*---------------- UPCOMING EVENTS -----------------------*/
 /*---------------- UPCOMING EVENTS -----------------------*/
 /*---------------- UPCOMING EVENTS -----------------------*/
+.myCardUE{
+  border-color:; 
+  border-style: ;
+  border-width:;
+}
 .upcomingEvents{
   padding: 0 0em; 
 }
+.upcomingEventsBG{
+  /* background-color:#014579;*/
+  background-color:#28a745; 
+}
 .UpcomingEventsTitle{
   color: black;
-  font-weight: 900
+  font-weight: 900;
 }
 .upcomingTitleText{
   font-size: 1.5em;
+  color: white;
 }
 .upcomingText{
   font-size: 1.1em;
+  color: white;
 }
 
 .UpcomingEventsFooter{
@@ -480,7 +522,7 @@ color:white;
 }
 .myContainer {
   position: relative;
- /* text-align:;*/
+  /* text-align:;*/
   color: white;
 }
 #DonateMiniHero{
@@ -499,23 +541,23 @@ color:white;
 }
 
 .hehe{
-color: blue;
+  color: blue;
 }
 .money {
-    width: 100px;
-    height: 100px;
-    background: green;
-    position: relative;
-   
+  width: 100px;
+  height: 100px;
+  background: green;
+  position: relative;
+
 
 }
 .money:hover{
-    width: 100px;
-    height: 100px;
-    background: red;
-    position: relative;
-   transition: all 2s;
-  
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  transition: all 2s;
+
 
 }
 
